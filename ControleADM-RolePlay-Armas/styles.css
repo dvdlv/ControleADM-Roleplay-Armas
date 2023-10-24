@@ -1,0 +1,87 @@
+body {
+    background-color: rgb(74, 64, 83);
+}
+
+.container-geral {
+    background-color: rgb(119, 116, 116);
+    border-radius: 20px;
+    height: 90dvh;
+    margin: 2rem;
+    min-width: 90dvw;
+}
+
+
+.container-entrada {
+    background-color: rgb(100, 98, 98);
+    border-bottom: 2px solid rgb(66, 67, 68);
+    border-radius: 40%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 2rem;
+
+}
+
+.container-novo {
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+
+form {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+form select {
+    border-radius: 2px;
+    text-align: center;
+    width: 10rem;
+}
+
+.container-infos {
+    max-height: 75dvh;
+    overflow-y: auto;
+
+}
+
+table {
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+tr {
+    background-color: rgb(80, 78, 78);
+    text-align: center;
+    width: 80dvw;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(119, 116, 116)
+}
+
+th {
+    border: 1px solid white;
+    padding: .5rem;
+    height: 1rem;
+    width: 130px;
+}
+
+td {
+    border: 1px solid white;
+    padding: .5rem;
+    height: 1rem;
+    width: 130px;
+}
+
+footer {
+    text-align: center;
+    color: white;
+}
+
+footer a {
+    color: white;
+    font-weight: 700;
+    text-decoration: solid;
+}

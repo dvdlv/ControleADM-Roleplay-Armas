@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contability - Anony</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body onload="criar()">
+    <div class="container-geral">
+
+        <div class="container-entrada">
+            <div class="container-novo">
+                <button type="submit" onclick="novoMembro()"> ADD NOVO MEMBRO </button>
+            </div>
+
+            <form>
+                <select id="membro" name="membro">
+                    <option value=""></option>
+                </select>
+
+                <div>
+                    <label for="titanium">Titanium</label>
+                    <input type="radio" name="tipo" value="titanium" id="titanium">
+                </div>
+
+                <div>
+                    <label for="ferro">Ferro</label>
+                    <input type="radio" name="tipo" value="ferro" id="ferro">
+                </div>
+
+                <div>
+                    <label for="pistola">Pistola</label>
+                    <input type="radio" name="tipo" value="pistola" id="pistola">
+                </div>
+
+                <div>
+                    <label for="sub">Submetralhadora</label>
+                    <input type="radio" name="tipo" value="sub" id="sub">
+                </div>
+
+                <div>
+                    <label for="fura">Fuzil</label>
+                    <input type="radio" name="tipo" value="fura" id="fura">
+                </div>
+
+                <div>
+                    <label for="dinheiro">Dinheiro Sujo</label>
+                    <input type="radio" name="tipo" value="dinheiro" id="dinheiro">
+                </div>
+
+                <div>
+                    <label for="valor">Valor</label>
+                    <input type="number" name="valor" value="valor" id="valor">
+                </div>
+
+                <input type="submit" value="Incluir" onclick="validacoes()"></button>
+            </form>
+        </div>
+
+        <div class="container-infos">
+            <table>
+                <tbody id="tabela">
+                    <tr>
+                        <th>Nome</th>
+                        <th>Titanium</th>
+                        <th>Ferro</th>
+                        <th>Pistola</th>
+                        <th>Submetralhadora</th>
+                        <th>Fuzil</th>
+                        <th>Dinheiro Sujo</th>
+                        <th>Salário</th>
+                        <th>Ações</th>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+    <footer>
+        <h2>Desenvolvido por <a href="https://github.com/dvdlv">DVDOLA</a></h2>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
