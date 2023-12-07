@@ -188,9 +188,8 @@ function definirSalario(n) {
         objeto.ferro >= 300 ||
         objeto.pt >= 300 ||
         objeto.sub >= 300 ||
-        objeto.fura >= 300 ||
-        objeto.dinheiro >= 300) {
-        objeto.salario = 150000
+        objeto.fura >= 300) {
+        objeto.salario = ((objeto.dinheiro * .75) / 2) + 150000
         localStorage.setItem(`membro${n}`, JSON.stringify(objeto))
     }
 }
