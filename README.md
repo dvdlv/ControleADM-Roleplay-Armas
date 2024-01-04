@@ -1,4 +1,4 @@
-# ControleADM-Roleplay-Armas
+# ControleADM-Roleplay-FarmGeral
 Controle de "farm" que define o salário dos integrantes, bem como introduz novos integrantes, remove, zera os valores de cada integrante 
 
 Feito para controle administrativo de cada item que cada integrante do grupo em sí introduz no compartimento compartilhado.
